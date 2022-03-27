@@ -2,33 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
-  <link href="main.css" rel="stylesheet">
   <title>The Seven Wonders</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
 </head>
 
 <body>
-  <header>
+  <header role="banner">
     <h1>The Seven Wonders of the Ancient World</h1>
   </header>
 
-  <main>
+  <main role="main">
     <img src="images/Maerten_van_Heemskerck_-_Panorama_with_the_Abduction_of_Helen_Amidst_the_Wonders_of_the_Ancient_World_-_Walters_37656.jpg" alt="">
 
-    <h2>Remarkable constructions of classical antiquity—lost in time.</h2>
-    <p>Come explore the ancient wonders with our amazing teleportation technology that jumps you around the world.</p>
+    <div class="text">
+      <h2>Remarkable constructions of classical antiquity—lost in time.</h2>
+      <p>Come explore the ancient wonders with our amazing teleportation technology that jumps you around the world.</p>
+    </div>
 
   <figure>
     <img src="images/Temple_of_Artemis.jpg" alt="">
+
     <figcaption>
       <header>
         <h2>Temple of Artemis</h2>
       </header>
-      <dl class="">
+      <dl>
         <dt>Construction:</dt>
-        <dd>Circa 550 BC</dd>
+        <dd>Circa <time datetime="-0550">550 BC</time></dd>
         <dt>Builders:</dt>
         <dd>Greeks</dd>
         <dt>Location:</dt>
@@ -43,9 +45,9 @@
       <header>
         <h2>Colossus of Rhodes</h2>
       </header>
-      <dl class="">
+      <dl>
         <dt>Construction:</dt>
-        <dd>292–280 BC</dd>
+        <dd><time datetime="0292">292</time>–<time datetime="0280">280 BC</time></dd>
         <dt>Builders:</dt>
         <dd>Greeks</dd>
         <dt>Location:</dt>
@@ -60,9 +62,9 @@
       <header>
         <h2>Gardens of Babylon</h2>
       </header>
-      <dl class="">
+      <dl>
         <dt>Construction:</dt>
-        <dd>Circa 600 BC</dd>
+        <dd>Circa <time datetime="-0600">600 BC</time></dd>
         <dt>Builders:</dt>
         <dd>Babylonians</dd>
         <dt>Location:</dt>
