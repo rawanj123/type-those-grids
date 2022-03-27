@@ -17,6 +17,7 @@ body {
 header h1 {
   font-style: italic;
   margin: 1rem;
+  margin-bottom: 2rem;
   font-size: 1.8rem;
 }
 
